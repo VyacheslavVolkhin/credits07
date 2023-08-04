@@ -1255,6 +1255,9 @@ font-size: 10px*/
   letter-spacing: -0.72px;
 }
 @media (max-width: 1023px) {
+  .item-tile-eco .tile-title-info {
+    font-size: 14px;
+  }
   .eco-tiles-section-box .more-box .btn {
     width: 100%;
     height: 56px;
