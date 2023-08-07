@@ -74,7 +74,7 @@ font-size: 10px*/
 .item-tile-eco.tile03 {
   background: #F0F2F6;
   color: #000;
-  min-height: 368px;
+  min-height: 408px;
 }
 .item-tile-eco.tile03 .tile-photo-wrap {
   display: -ms-flexbox;
@@ -106,7 +106,7 @@ font-size: 10px*/
 .item-tile-eco.tile05 {
   background: #F0F2F6;
   color: #1D1D1F;
-  min-height: 258px;
+  min-height: 257px;
 }
 .item-tile-eco.tile05 .tile-title-info {
   color: #7D7E80;
@@ -124,6 +124,7 @@ font-size: 10px*/
 .item-tile-eco.tile06 {
   background: #F0F2F6;
   padding-bottom: 12px;
+  min-height: 407px;
   color: #000;
 }
 .item-tile-eco.tile06 .tile-photo {
@@ -154,7 +155,7 @@ font-size: 10px*/
 }
 .item-tile-eco.tile07 {
   background-image: url(../img/04.jpg);
-  min-height: 488px;
+  min-height: 500px;
 }
 .item-tile-eco.tile07 .tile-title-wrap {
   -ms-flex: inherit;
