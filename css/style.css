@@ -1630,6 +1630,27 @@ font-size: 10px*/
   }
 }
 /*new style 08.2023*/
+.popup-menu-wrap .menu {
+  -ms-flex-align: center;
+      align-items: center;
+}
+.popup-menu-wrap .menu li {
+  margin-right: 5px;
+}
+.popup-menu-wrap .menu .btn,
+.popup-menu-wrap .menu a.btn {
+  font-size: 16px;
+  font-weight: 400;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-left: 20px;
+  padding: 0 11px;
+  border-radius: 15px;
+}
+.btn.button-accent:not(:hover) {
+  background-color: #00BB31;
+  border-color: #00BB31;
+}
 .btn-action-ico.ico-arrow-go {
   width: 26px;
   height: 27px;
@@ -1943,6 +1964,15 @@ font-size: 10px*/
 .eco-tiles-section-box.section-var-second .more-box {
   margin-top: 38.4px;
   margin-top: 2.4rem;
+}
+@media (max-width: 1023px) {
+  .popup-menu-wrap .menu .btn,
+  .popup-menu-wrap .menu a.btn {
+    width: 90%;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 10px auto 0 auto;
+  }
 }
 @media (max-width: 767px) {
   .item-tile-eco.tile08 .tile-title,
