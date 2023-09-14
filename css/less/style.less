@@ -2557,20 +2557,31 @@ font-size: 10px*/
     .popup-corner-panel {
         font-size: 14px;
     }
+    .popup-outer-box.popup-form-join .popup-box {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    .popup-outer-box.popup-form-join .popup-box .popup-title {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
     .popup-form-join {
         .popup-inner-box {
             flex-direction: column;
             .photo-inner-wrap {
-                order: 1;
+                order: 2;
                 width: 100%;
+                .elm-photo {
+                    width: 140px;
+                }
             }
             .form-inner-wrap {
                 width: 100%;
                 flex-shrink: 0;
                 flex-grow: 0;
                 padding: 0;
-                margin-top: 3rem;
-                order: 2;
+                margin-bottom: 3rem;
+                order: 1;
             }
         }
     }
