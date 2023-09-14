@@ -2030,7 +2030,7 @@ font-size: 10px*/
             flex-shrink: 0;
             .btn {
                 width: auto;
-                padding: 0 16px 0 20px;
+                padding: 0 12px 0 16px;
                 min-width: 0;
                 color: var(--clr-att);
                 .button-title {
@@ -2046,7 +2046,10 @@ font-size: 10px*/
         }
         .timer-element-box {
             margin: 0;
-            font-size: 0.715em;
+            font-size: 1em;
+            .timer-title {
+                font-size: 24px;
+            }
         }
         .info-text {
             display: none;
@@ -2554,6 +2557,12 @@ font-size: 10px*/
     }
 }
 @media (max-width: 767px) {
+    .popup-corner-panel:not(.active) .timer-element-box  {
+        font-size: 16px;
+        .timer-title {
+            font-size: 18px;
+        }
+    }
     .popup-corner-panel {
         font-size: 14px;
     }
@@ -2598,11 +2607,11 @@ font-size: 10px*/
         font-size: 12px;
         &:not(.active) {
             .info-inner-wrap {
-                font-size: 10px;
+                font-size: 12px;
                 display: block;
             }
             .timer-element-box {
-                font-size: 8px;
+                
             }
         }
     }
